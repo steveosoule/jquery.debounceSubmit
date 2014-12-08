@@ -4,7 +4,7 @@
 
 ## Description
 
-After a form is submitted, this plugin will disable it for 750 milliseconds to prevent duplicate form submits. After the 750 millisecond wait the form will be re-enabled (This is important if some one use "Esc" to stop a form submit from completing)
+After a form is submitted, this plugin will disable it for 750 milliseconds to prevent duplicate form submits. After the 750 millisecond wait the form will be re-enabled (This is important if some one uses "Esc" to stop a form submit from completing)
 
 <!-- **debounce**
 [dee-bouns] describes rate-limiting or throttling the frequency of a method's execution.
