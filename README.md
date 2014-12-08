@@ -32,9 +32,11 @@ $('#another-payment-form').debounceSubmit({
 ### Before
 
 Clicking the submit button multiple times causes the form to make several partial/canceled requests to the server that result in a tax calculation error during checkout
+
 [![Before Submit Once](/assets/example-before.gif)](http://recordit.co/hfOQiNORbn)
 
 ### After
 
 Clicking the submit button multiple times only allows one successfull submit to happen
+
 [![After Submit Once](/assets/example-after.gif)](http://recordit.co/0Nf8XElNpX)
