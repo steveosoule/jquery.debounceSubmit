@@ -1,8 +1,8 @@
 # $.fn.debounceSubmit
 
-## About
+### jQuery plugin to stop double-clicks from submitting forms multiple times.
 
-**Prevent multiple form submits with jQuery**
+## Description
 
 After a form is submitted, this plugin will disable it for 750 milliseconds to prevent duplicate form submits. After the 750 millisecond wait the form will be re-enabled (This is important if some one use "Esc" to stop a form submit from completing)
 
@@ -10,8 +10,7 @@ After a form is submitted, this plugin will disable it for 750 milliseconds to p
 [dee-bouns] describes rate-limiting or throttling the frequency of a method's execution.
 
 **debounceSubmit**
-[*dee* bouns *suh* b-mit] limits a form-submit from occuring if the form has tried to be submitted in the past *N* milliseconds
-
+[*dee* bouns *suh* b-mit] limits a form-submit from occuring if the form has attempted to be submitted in the past *N* milliseconds
 
 ## Example Usage
 
@@ -32,8 +31,10 @@ $('#another-payment-form').debounceSubmit({
 
 ### Before
 
+Clicking the submit button multiple times causes the form to make several partial/canceled requests to the server that result in a tax calculation error during checkout
 [![Before Submit Once](/assets/example-before.gif)](http://recordit.co/hfOQiNORbn)
 
 ### After
 
+Clicking the submit button multiple times only allows one successfull submit to happen
 [![After Submit Once](/assets/example-after.gif)](http://recordit.co/0Nf8XElNpX)
